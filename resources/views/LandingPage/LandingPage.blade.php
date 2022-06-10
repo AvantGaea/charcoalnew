@@ -13,7 +13,7 @@
         class="bi bi-arrow-up-short"></i></a>
 <div id="preloader"></div>
     <div id="maillist-banner" class="maillist-banner m-index">
-        <div class="container-fluid">
+        <div class="container-fluid maillist-container">
             <div class="row myContainer">
                 <form name="ajax-contact-form" id="ajax-contact-form" action="{{route('store.email')}}" method="post" >
                     @csrf
@@ -24,7 +24,7 @@
                       justify-content-end email-input">
                         <input id="email" class="m-font emailInput" type="email" name="email" placeholder="  EMAIL ADDRESS">
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="col-sm-12 col-md-12 col-lg-3 button-container">
                         <button id="submit" class="m-font fontThin" type="submit">JOIN NOW</button>
                     </div>
                 </form>
