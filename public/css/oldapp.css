@@ -45,12 +45,15 @@
 
 .maillist-container {
   padding: 6px 150px !important;
+  height: 68px;
+  display: flex;
 }
 
 .myContainer{
-  padding: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
+  padding: 0 !important;
+  width: 100%;
 }
 
 .myContainer form {
@@ -70,6 +73,64 @@
   padding: 0;
 }
 
+#cookie-disclaimer {
+  max-width: 550px;
+}
+
+.myContainer2 {
+  padding: 0 150px !important;
+}
+
+@media  (max-width: 1200px) {
+  .navbar {
+    padding: 0px;
+  }
+
+  .myContainer2 {
+    padding: 0 90px !important;
+  }
+
+  .maillist-container {
+    padding: 0 90px 12px !important;
+  }
+}
+
+@media  (max-width: 990px) {
+  .navbar-container {
+    padding: 0 90px;
+  }
+
+  .maillist-container {
+    height: auto;
+    justify-content: center;
+  }
+
+  .myContainer {
+    max-width: 500px;
+  }
+
+  .button-container {
+    justify-content: center;
+  }
+
+  #cookie_container {
+    height: auto;
+  }
+
+  .myContainer2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fontThin {
+    max-width: 400px;
+  }
+
+  #email {
+    max-width: 400px !important;
+  }
+}
+
 @media  (max-width: 770px) {
   .navbar {
     padding: 0px;
@@ -83,6 +144,8 @@
   .socialmedia {
     width: auto;
     max-height: 50px;
+    margin-left: 25px;
+    padding-left: 0 !important;
   }
 
   #myLogo {
@@ -116,6 +179,18 @@
   .myContainer form {
     padding: 0;
     align-items: center;
+  }
+
+  .myContainer2 {
+    padding: 0 30px !important;
+  }
+
+  .cookie-settings {
+    margin: 4px 0;
+  }
+
+  .maillist-container {
+    height: auto;
   }
 
   #maillist-banner div {
@@ -355,9 +430,9 @@
     align-items: center;
 }
 .myContainer2 {
-    margin-left: 0 !important;
-    margin-right: 3.4%;
+    margin: 0;
 }
+
 .myContainer2 .c-ptag {
   justify-content: flex-start;
   padding-left: 15px;

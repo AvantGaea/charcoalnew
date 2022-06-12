@@ -1104,8 +1104,8 @@ section {
 /* cookie container */
 .cookie_container.active {
   display: block;
-    right: 0;
-    left: 0;
+  right: 0;
+  left: 0;
 }
 .cookie_container div .row {
   width: 100%;
@@ -1114,8 +1114,8 @@ section {
 .cookie_container {
   border-top: 1px solid;
   border-bottom: 1px solid;
-    padding: 5px;
-    position: fixed;
+  padding: 5px;
+  position: fixed;
   bottom: 0;
   width: 100%;
   display: none;

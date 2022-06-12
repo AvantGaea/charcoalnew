@@ -8,7 +8,7 @@
         <div class="iconsContainer">
             <a href="https://www.instagram.com/charcoalchroniclesnft/" target="_blank"> <img class="socialmedia" src="{{asset('img/IG.png')}}" alt="IG"/> </a>
             <a href="https://dsc.gg/charcoal-chronicles-w" target="_blank" ><img class="socialmedia" src="{{asset('img/DISCORD.png')}}" alt="Discord"/></a>
-            <a href="https://twitter.com/charcoalchronft" target="_blank"><img class="socialmedia" src="{{asset('img/TWITTER.png')}}" alt="Twiiter"/></a>
+            <a href="https://twitter.com/charcoalchronft" target="_blank"><img class="socialmedia" src="{{asset('img/TWITTER.png')}}" alt="Twiter"/></a>
         </div>
     </div>
 </nav>
