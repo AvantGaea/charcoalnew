@@ -82,11 +82,11 @@ body {
 }
 
 .emailInput {
-  width: 330px !important;
+  width: 280px !important;
 }
 
 #cookie_btn {
-  min-width: 330px;
+  width: 280px;
 }
 
 #cookie-disclaimer {
@@ -99,6 +99,10 @@ body {
 
 #maillist-banner {
   margin-left: 0 !important;
+}
+
+#submit {
+  width: 280px !important;
 }
 
 
@@ -298,7 +302,7 @@ body {
     right: 14px;
   }
   #submit {
-    width: 330px !important;
+    width: 280px !important;
   }
 }
 
