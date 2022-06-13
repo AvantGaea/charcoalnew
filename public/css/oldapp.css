@@ -48,7 +48,7 @@ body {
 #myLogo {
   width: 180px;
   padding: 0;
-  padding-top: 6px
+  padding-top: 4px
 }
 
 .maillist-container {
@@ -182,6 +182,7 @@ body {
   }
 
   .iconsContainer {
+    padding-top: 14px;
     position: absolute;
     top:10px;
     left:0;
@@ -190,7 +191,7 @@ body {
     justify-items: right;
     align-items: flex-end;
     padding-bottom: 120px;
-    }
+  }
   
   .socialmedia {
     max-height: 25px;
