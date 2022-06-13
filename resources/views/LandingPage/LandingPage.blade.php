@@ -32,7 +32,7 @@
             <i class="m-close bi bi-x"></i>
         </div>
     </div>
-<div id="cookie_container" class=" cookie_container c-index">
+<div id="cookie_container" class=" cookie_container c-index active">
     <div class="container-fluid d-flex">
         <div class="row myContainer2">
             <div class="c-ptag col-sm-10 col-lg-7 col-xs-12 ">

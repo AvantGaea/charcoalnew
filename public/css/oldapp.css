@@ -27,7 +27,7 @@ body {
   align-items: flex-start !important;
   display: flex;
   justify-content: space-between;
-  padding: 0 90px;
+  padding: 0 120px;
 }
 
 .iconsContainer {
@@ -136,6 +136,7 @@ body {
 
   #cookie_container {
     height: auto;
+    display: flex;
   }
 
   .myContainer2 {
@@ -484,8 +485,12 @@ body {
 }
 #cookie_container {
   min-height: 70px;
+}
+
+#cookie_container.active {
   display: flex;
 }
+
 .myLogo {
   max-width: 165px;
   padding-left: 80px;
