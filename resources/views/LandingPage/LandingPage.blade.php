@@ -12,7 +12,7 @@
 <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
 <div id="preloader"></div>
-    <div id="maillist-banner" class="maillist-banner m-index">
+    <div id="maillist-banner" class="maillist-banner m-index active">
         <div class="container-fluid maillist-container">
             <div class="row myContainer">
                 <form name="ajax-contact-form" id="ajax-contact-form" action="{{route('store.email')}}" method="post" >
