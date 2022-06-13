@@ -11,6 +11,11 @@
     src: url("../font/NeutraText-Demi.otf") format('truetype');
 }
 
+body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -22,11 +27,12 @@
   align-items: flex-start !important;
   display: flex;
   justify-content: space-between;
-  padding: 0 150px;
+  padding: 0 90px;
 }
 
 .iconsContainer {
   display: flex;
+  padding-top: 10px;
 }
 
 .iconsContainer a {
@@ -36,11 +42,13 @@
 
 .socialmedia{
     width: auto;
-    max-height: 50px;
+    max-height: 40px;
 }
 
 #myLogo {
-  width: 200px;
+  width: 180px;
+  padding: 0;
+  padding-top: 6px
 }
 
 .maillist-container {
@@ -73,6 +81,14 @@
   padding: 0;
 }
 
+.emailInput {
+  width: 330px !important;
+}
+
+#cookie_btn {
+  min-width: 330px;
+}
+
 #cookie-disclaimer {
   max-width: 550px;
 }
@@ -80,6 +96,11 @@
 .myContainer2 {
   padding: 0 150px !important;
 }
+
+#maillist-banner {
+  margin-left: 0 !important;
+}
+
 
 @media  (max-width: 1200px) {
   .navbar {
@@ -236,7 +257,8 @@
   }
 
   #cookie_btn {
-    width: 100%;
+    width: 100% !important;
+    min-width: unset;
   }
 
   .cookie_x {
@@ -259,6 +281,7 @@
   #maillist-banner {
     padding: 10px;
     min-height: 154px;
+    margin-left: 0 !important;
   }
 
   #join-mailing-list {
@@ -439,10 +462,10 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .myContainer{
-        margin-left: 1%;
-        margin-right: 1%;
-    }
+  .myContainer {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 }
 
 .iconsContainer {
@@ -453,8 +476,8 @@
   justify-content: flex-end;
   align-items: flex-start;
   padding-bottom: 0 !important;
-  padding: 15px 0;
 }
+
 #cookie-disclaimer {
   margin-left: 0;
 }
