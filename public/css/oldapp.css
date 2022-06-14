@@ -53,11 +53,11 @@ body {
 
 .maillist-container {
   padding: 6px 90px !important;
-  height: 68px;
+  height: 70px;
   display: flex;
 }
 
-.myContainer{
+.myContainer {
   margin-left: 0 !important;
   margin-right: 0 !important;
   padding: 0 !important;
@@ -101,7 +101,11 @@ body {
 }
 
 .myContainer2 {
-  padding: 0 150px !important;
+  padding: 0 90px !important;
+}
+
+.myContainer2 > div {
+  padding-bottom: 12px;
 }
 
 #maillist-banner {
