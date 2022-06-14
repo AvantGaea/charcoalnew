@@ -19,7 +19,7 @@ body {
 .navbar {
   display: flex;
   justify-content: center;
-  padding: 0 150px;
+  padding: 0 90px;
   width: 100%;
 }
 
@@ -27,12 +27,12 @@ body {
   align-items: flex-start !important;
   display: flex;
   justify-content: space-between;
-  padding: 0 120px;
+  padding: 0 90px;
 }
 
 .iconsContainer {
   display: flex;
-  padding-top: 21px;
+  padding-top: 45px;
 }
 
 .iconsContainer a {
@@ -52,7 +52,7 @@ body {
 }
 
 .maillist-container {
-  padding: 6px 150px !important;
+  padding: 6px 90px !important;
   height: 68px;
   display: flex;
 }
@@ -66,10 +66,15 @@ body {
 
 .myContainer form {
   padding: 0;
+  padding-bottom: 12px;
 }
 
 .button-container {
   display: flex;
+}
+
+.cookie-modal-button {
+  appearance: none !important;
 }
 
 #join-mailing-list {
@@ -80,6 +85,8 @@ body {
   margin: 0 !important;
   padding: 0;
 }
+
+
 
 .emailInput {
   width: 280px !important;
@@ -103,6 +110,11 @@ body {
 
 #submit {
   width: 280px !important;
+}
+
+.modal-content {
+  width: 420px;
+  height: 735px;
 }
 
 
@@ -140,6 +152,9 @@ body {
 
   #cookie_container {
     height: auto;
+  }
+
+  #cookie_container.active {
     display: flex;
   }
 
@@ -150,6 +165,10 @@ body {
 
   .fontThin {
     max-width: 400px;
+  }
+
+  .myContainer form {
+    padding: 0;
   }
 
   #email {
@@ -187,6 +206,7 @@ body {
   }
 
   .iconsContainer {
+    padding-right: 45px;
     padding-top: 14px;
     position: absolute;
     top:10px;
@@ -228,12 +248,17 @@ body {
     width: 330px !important;
   }
 
-  #submit {
+  /* #submit {
     width: 330px !important;
-  }
+  } */
 }
 /* phone */
 @media only screen and (max-width: 451px) {
+  .modal-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
   .myLogo {
     padding-left: 10px !important;
   }
@@ -369,10 +394,23 @@ body {
 }
 
 /* cookies popup */
+.myPopup {
+  padding-left: 30px;
+}
+
 .myPopup a {
   position: relative;
-  padding: 15px 30px;
+  padding: 15px 0;
+  margin: 0 !important;
+  width: fit-content;
 }
+
+.cookie-modal-button.active {
+  border-bottom: 2px solid black;
+  border-radius: 0;
+  content: '';
+}
+
 .myPopup {
   display: inline-block !important;
   text-align: center;
@@ -409,7 +447,7 @@ body {
       margin-right: 0;
     }
     .myPopup {
-      padding: 5px 10px;
+      padding: 5px 20px;
     }
     .myTab{
         background-color: white !important;
@@ -477,7 +515,6 @@ body {
 .iconsContainer {
   height: auto;
   width: auto;
-  padding-right: 45px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
@@ -507,4 +544,43 @@ body {
 }
 #submit {
   width: 510px;
+}
+
+.accordion {
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.accordion__label,
+.accordion__content {
+  color: black;
+  padding: 14px 20px;
+}
+
+.accordion__label {
+  display: block;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+}
+
+.accordion__label:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.accordion__content {
+  background: #ffffff;
+  line-height: 1.6;
+  font-size: 0.85em;
+  display: none;
+}
+
+.accordion__input {
+  display: none;
+}
+
+.accordion__input:checked ~ .accordion__content {
+  display: block;
 }

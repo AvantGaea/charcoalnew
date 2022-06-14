@@ -32,7 +32,7 @@
             <i class="m-close bi bi-x"></i>
         </div>
     </div>
-<div id="cookie_container" class=" cookie_container c-index active">
+<div id="cookie_container" class="cookie_container c-index active">
     <div class="container-fluid d-flex">
         <div class="row myContainer2">
             <div class="c-ptag col-sm-10 col-lg-7 col-xs-12 ">
@@ -54,7 +54,7 @@
 <div id="cookie_model" class="cookie_modal">
 
     <!-- Modal content -->
-    <div class="modal-content position-absolute top-50 start-50 translate-middle">
+    <!-- <div class="modal-content position-absolute top-50 start-50 translate-middle">
         <span id="modal_close" class="modal_close">&times;</span>
         <div class="d-flex align-items-start">
             <div class="row">
@@ -63,20 +63,20 @@
                          aria-orientation="vertical"
                          style="text-align: left; display:inline">
 
-                        <a class="modal_btn nav-link active fontTitle" id="your-privacy-tab" data-bs-toggle="pill"
+                        <a class="modal_btn nav-link active fontTitle cookie-modal-button" id="your-privacy-tab" data-bs-toggle="pill"
                            data-bs-target="#your-privacy" type="button" role="tab" aria-controls="your-privacy"
                            aria-selected="true">Privacy</a>
-                        <a class="modal_btn nav-link fontTitle mt-3 " id="strictly-necessary-cookies-tab" data-bs-toggle="pill"
+                        <a class="modal_btn nav-link fontTitle mt-3 cookie-modal-button" id="strictly-necessary-cookies-tab" data-bs-toggle="pill"
                            data-bs-target="#strictly-necessary-cookies" type="button" role="tab"
                            aria-controls="strictly-necessary-cookies" aria-selected="false">Strictly Necessary
                             Cookies</a>
-                        <a class="modal_btn nav-link fontTitle mt-3" id="preformance-cookies-tab" data-bs-toggle="pill"
+                        <a class="modal_btn nav-link fontTitle mt-3 cookie-modal-button" id="preformance-cookies-tab" data-bs-toggle="pill"
                            data-bs-target="#preformance-cookies" type="button" role="tab"
                            aria-controls="preformance-cookies" aria-selected="false">Performance Cookies</a>
-                        <a class="modal_btn nav-link fontTitle mt-3" id="functional-cookies-tab" data-bs-toggle="pill"
+                        <a class="modal_btn nav-link fontTitle mt-3 cookie-modal-button" id="functional-cookies-tab" data-bs-toggle="pill"
                            data-bs-target="#functional-cookies" type="button" role="tab"
                            aria-controls="functional-cookies" aria-selected="false">Functional Cookies</a>
-                        <a class="modal_btn nav-link fontTitle mt-3 " id="targeting-cookies-tab" data-bs-toggle="pill"
+                        <a class="modal_btn nav-link fontTitle mt-3 cookie-modal-button" id="targeting-cookies-tab" data-bs-toggle="pill"
                            data-bs-target="#targeting-cookies" type="button" role="tab"
                            aria-controls="targeting-cookies" aria-selected="false">Targeting Cookies</a>
                     </div>
@@ -84,28 +84,6 @@
                 <div class="col-6">
 
                     <div class="tab-content " id="v-pills-tabContent">
-                        <div class="modal-p tab-pane fade show active" id="your-privacy" role="tabpanel"
-                             aria-labelledby="your-privacy-tab">
-                            <div class="modal-head">
-
-                                <p class="fontTitle">
-                                    Privacy
-                                </p>
-
-                            </div>
-                            <p class="fontLight ">
-                                We use cookies (or similar technologies) to
-                                personalise
-                                content and ads, to provide social media features and to analyse our traffic. By
-                                clicking
-                                “Accept”, you agree to this and the sharing of information about your use of our site
-                                with
-                                our social media, advertising and analytics affiliates who may combine it with other
-                                information that you’ve provided to them or that they’ve collected from your use of
-                                their
-                                services.
-                            </p>
-                        </div>
                         <div class="modal-p tab-pane fade" id="strictly-necessary-cookies" role="tabpanel"
                              aria-labelledby="strictly-necessary-cookies-tab">
                             <div class="modal-head">
@@ -114,18 +92,6 @@
                                 </p>
 
                             </div>
-                            <p class="fontLight">
-                                Always Active
-
-                                Necessary cookies are essential for the website to function, and cannot be switched off
-                                in
-                                our systems. Without these cookies, services, such as privacy settings, logging in or
-                                filing
-                                in forms, requested by you cannot be provided. If you set your browser to block these
-                                cookies, then the requested functions and services will not work. These cookies do not
-                                store
-                                any personally identifiable information.
-                            </p>
                         </div>
                         <div class="modal-p tab-pane fade" id="preformance-cookies" role="tabpanel"
                              aria-labelledby="preformance-cookies-tab">
@@ -133,38 +99,15 @@
                                 <p class="fontTitle privacyTitle">
                                     Performance Cookies
                                 </p>
-
                             </div>
                             <div class="form-check form-switch">
-                                <input class="toggle_btn form-check-input" type="checkbox"
-                                       id="flexSwitchCheckDefault" />
-
+                                <input class="toggle_btn form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
                             </div>
-                            <p class="fontLight">
-                                Performance cookies allow us to understand how
-                                visitors interact with the website by counting visits and traffic sources, so that we
-                                can
-                                measure and improve the performance of our site. They help us measure which pages are
-                                the
-                                most and least popular and understand how visitors move around the site. All information
-                                these cookies collect is aggregated and therefore anonymous. If you do not allow these
-                                cookies we will not know when you have visited our site, and will not be able to monitor
-                                its
-                                performance.
-                            </p>
                         </div>
                         <div class="modal-p tab-pane fade" id="functional-cookies" role="tabpanel"
                              aria-labelledby="functional-cookies-tab">
                             <div class="modal-head">
-                                <p class="fontTitle privacyTitle">
-                                    Functional Cookies
-                                </p>
-
-                            </div>
-                            <div class="form-check form-switch">
-                                <input class="toggle_btn form-check-input" type="checkbox"
-                                       id="flexSwitchCheckDefault" />
-
+                                <p class="fontTitle privacyTitle">Functional Cookies</p>
                             </div>
                             <p class="fontLight">
                                 These cookies are used to recognise you and
@@ -176,20 +119,15 @@
                                 then
                                 some or all of these services may not function properly.
                             </p>
+                            <div class="form-check form-switch">
+                                <input class="toggle_btn form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+
+                            </div>
                         </div>
                         <div class="modal-p tab-pane fade" id="targeting-cookies" role="tabpanel"
                              aria-labelledby="targeting-cookies-tab">
                             <div class="modal-head">
-                                <p class="fontTitle ">
-                                    Targeting Cookies
-                                </p>
-
-                            </div>
-
-                            <div class="form-check form-switch">
-                                <input class="toggle_btn form-check-input" type="checkbox"
-                                       id="flexSwitchCheckDefault" />
-
+                                <p class="fontTitle ">Targeting Cookies</p>
                             </div>
                             <p class="fontLight">
                                 These cookies may be set through our site by our
@@ -201,6 +139,9 @@
                                 sites. If
                                 you do not allow these cookies, you will experience less targeted advertising.
                             </p>
+                            <div class="form-check form-switch">
+                                <input class="toggle_btn form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -213,7 +154,116 @@
             </div>
         </div>
 
+    </div> -->
+    <!-- Modal content finish -->
+
+    <div class="modal-content position-absolute top-50 start-50 translate-middle">
+        <span id="modal_close" class="modal_close">&times;</span>
+        <div class="accordion">
+            <div>
+                <input type="radio" name="example_accordion" id="section1" class="accordion__input" selected>
+                <label for="section1" class="accordion__label fontTitle">Privacy</label>
+                <div class="accordion__content">
+                    <p class="fontLight ">
+                        We use cookies (or similar technologies) to
+                        personalise
+                        content and ads, to provide social media features and to analyse our traffic. By
+                        clicking
+                        “Accept”, you agree to this and the sharing of information about your use of our site
+                        with
+                        our social media, advertising and analytics affiliates who may combine it with other
+                        information that you’ve provided to them or that they’ve collected from your use of
+                        their
+                        services.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <input type="radio" name="example_accordion" id="section2" class="accordion__input">
+                <label for="section2" class="accordion__label fontTitle">Strictly Necessary Cookies</label>
+                <div class="accordion__content">
+                    <p class="fontLight">
+                        Always Active
+
+                        Necessary cookies are essential for the website to function, and cannot be switched off
+                        in
+                        our systems. Without these cookies, services, such as privacy settings, logging in or
+                        filing
+                        in forms, requested by you cannot be provided. If you set your browser to block these
+                        cookies, then the requested functions and services will not work. These cookies do not
+                        store
+                        any personally identifiable information.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <input type="radio" name="example_accordion" id="section3" class="accordion__input">
+                <label for="section3" class="accordion__label fontTitle">Performance Cookies</label>
+                <div class="accordion__content">
+                    <p class="fontLight">
+                        Performance cookies allow us to understand how
+                        visitors interact with the website by counting visits and traffic sources, so that we
+                        can
+                        measure and improve the performance of our site. They help us measure which pages are
+                        the
+                        most and least popular and understand how visitors move around the site. All information
+                        these cookies collect is aggregated and therefore anonymous. If you do not allow these
+                        cookies we will not know when you have visited our site, and will not be able to monitor
+                        its
+                        performance.
+                    </p>
+                    <div class="form-check form-switch">
+                        <input class="toggle_btn form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input type="radio" name="example_accordion" id="section4" class="accordion__input">
+                <label for="section4" class="accordion__label fontTitle">Functional Cookies</label>
+                <div class="accordion__content">
+                    <p class="fontLight">
+                        These cookies are used to recognise you and
+                        remember
+                        your preferences or settings when you return to our site, to enable the website to
+                        provide
+                        enhanced functionality and personalisation. They may be set by us or by third party
+                        providers whose services we have added to our pages. If you do not allow these cookies
+                        then
+                        some or all of these services may not function properly.
+                    </p>
+                    <div class="form-check form-switch">
+                        <input class="toggle_btn form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input type="radio" name="example_accordion" id="section5" class="accordion__input">
+                <label for="section5" class="accordion__label fontTitle">Targeting Cookies</label>
+                <div class="accordion__content">
+                    <p class="fontLight">
+                        These cookies may be set through our site by our
+                        advertising affiliates. They do not store directly personal information, but are based
+                        on
+                        uniquely identifying your browser and internet device. They may be used by those
+                        companies
+                        to build a profile of your interests and target you with relevant adverts on other
+                        sites. If
+                        you do not allow these cookies, you will experience less targeted advertising.
+                    </p>
+                    <div class="form-check form-switch">
+                        <input class="toggle_btn form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 modal-btn mt-5 fontTitle">
+            <button id="confirm-choices">CONFIRM MY CHOICES</button>
+        </div>
+        <div class="col-12 modal-btn fontTitle mb-4">
+            <button id="allow-all">ALLOW ALL</button>
+        </div>
     </div>
+</div>
 
 </div>
 @include("LandingPage.components.scripts")
