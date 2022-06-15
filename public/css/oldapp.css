@@ -117,8 +117,35 @@ body {
 }
 
 .modal-content {
-  width: 420px;
-  height: 735px;
+  width: 550px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content div {
+  margin-top: 0;
+}
+
+#modal_close {
+  align-self: flex-end;
+}
+
+.modal-buttons-container {
+  display: flex;
+  margin: 20px 0;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: auto !important;
+}
+
+.confirm-button {
+  margin-top: 0 !important;
+}
+
+.accept-all-button {
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
 }
 
 
@@ -260,7 +287,7 @@ body {
 @media only screen and (max-width: 451px) {
   .modal-content {
     width: 100%;
-    margin-top: 20px;
+    height: 100%;
   }
 
   .myLogo {
@@ -317,6 +344,7 @@ body {
     padding: 10px;
     min-height: 154px;
     margin-left: 0 !important;
+    height: 188px;
   }
 
   #join-mailing-list {
@@ -551,14 +579,13 @@ body {
 }
 
 .accordion {
-  max-width: 400px;
   overflow: hidden;
 }
 
 .accordion__label,
 .accordion__content {
   color: black;
-  padding: 14px 20px;
+  padding: 8px 16px;
 }
 
 .accordion__label {
@@ -587,4 +614,13 @@ body {
 
 .accordion__input:checked ~ .accordion__content {
   display: block;
+}
+
+.font-12 {
+  font-size: 12px !important;
+  margin-bottom: 0 !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
 }
