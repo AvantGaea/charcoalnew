@@ -308,7 +308,12 @@ body {
   #cookie-disclaimer {
     font-size: 1em;
     margin: 0;
-    padding-right: 20px;
+    /* padding-right: 20px; */
+  }
+
+  .cookies-description {
+    padding: 10px 0 0 0 !important;
+    margin-bottom: 15px;
   }
 
   .myContainer form {

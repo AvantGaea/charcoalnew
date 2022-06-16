@@ -35,7 +35,7 @@
 <div id="cookie_container" class="cookie_container c-index active">
     <div class="container-fluid d-flex">
         <div class="row myContainer2">
-            <div class="c-ptag col-sm-10 col-lg-7 col-xs-12 ">
+            <div class="c-ptag col-sm-10 col-lg-7 col-xs-12 cookies-description">
                 <p id="cookie-disclaimer" class="fontThin">BY CLICKING "ACCEPT ALL COOKIES", YOU AGREE TO THE STORING OF COOKIES TO ENHANCE SITE NAVIGATION, ANALYZE SITE USAGE, AND ASSIST IN OUR MARKETING EFFORTS.</p>
             </div>
             <div class="c-link col-sm-2 col-lg-2 cookie-settings">
