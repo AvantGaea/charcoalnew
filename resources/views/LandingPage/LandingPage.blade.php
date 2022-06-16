@@ -164,7 +164,7 @@
                 <input selected type="radio" name="example_accordion" id="section1" class="accordion__input" selected>
                 <label for="section1" class="accordion__label fontTitle font-14">Privacy</label>
                 <div class="accordion__content">
-                    <p class="fontLight font-12">
+                    <p class="fontLight font-10">
                         We use cookies (or similar technologies) to
                         personalise
                         content and ads, to provide social media features and to analyse our traffic. By
@@ -182,7 +182,7 @@
                 <input type="radio" name="example_accordion" id="section2" class="accordion__input">
                 <label for="section2" class="accordion__label fontTitle font-14">Strictly Necessary Cookies</label>
                 <div class="accordion__content">
-                    <p class="fontLight font-12">
+                    <p class="fontLight font-10">
                         Always Active
 
                         Necessary cookies are essential for the website to function, and cannot be switched off
@@ -200,7 +200,7 @@
                 <input type="radio" name="example_accordion" id="section3" class="accordion__input">
                 <label for="section3" class="accordion__label fontTitle font-14">Performance Cookies</label>
                 <div class="accordion__content">
-                    <p class="fontLight font-12">
+                    <p class="fontLight font-10">
                         Performance cookies allow us to understand how
                         visitors interact with the website by counting visits and traffic sources, so that we
                         can
@@ -221,7 +221,7 @@
                 <input type="radio" name="example_accordion" id="section4" class="accordion__input">
                 <label for="section4" class="accordion__label fontTitle font-14">Functional Cookies</label>
                 <div class="accordion__content">
-                    <p class="fontLight font-12">
+                    <p class="fontLight font-10">
                         These cookies are used to recognise you and
                         remember
                         your preferences or settings when you return to our site, to enable the website to
@@ -240,7 +240,7 @@
                 <input type="radio" name="example_accordion" id="section5" class="accordion__input">
                 <label for="section5" class="accordion__label fontTitle font-14">Targeting Cookies</label>
                 <div class="accordion__content">
-                    <p class="fontLight font-12">
+                    <p class="fontLight font-10">
                         These cookies may be set through our site by our
                         advertising affiliates. They do not store directly personal information, but are based
                         on
