@@ -229,6 +229,7 @@ body {
     width: 100px;
     margin: 0;
     float: left;
+    padding: 4px 0 0 15px;
   }
 
   .container-fluid.row {
@@ -292,7 +293,7 @@ body {
   }
 
   .myLogo {
-    padding-left: 10px !important;
+    padding: 4px 0 0 15px;
   }
 
   .socialmedia{
@@ -321,6 +322,7 @@ body {
 
   #cookie_btn {
     width: 100% !important;
+    min-width: 311px !important;
     min-width: unset;
   }
 
@@ -340,9 +342,11 @@ body {
   }
   .cookie-settings {
     margin: 3px 0;
+    padding-left: 0;
+    padding-right: 0;
   }
   #maillist-banner {
-    padding: 10px;
+    padding: 15px;
     min-height: 154px;
     margin-left: 0 !important;
     height: 188px;
@@ -352,15 +356,29 @@ body {
     margin-bottom: 35px;
     margin-left: -22px;
   }
+
+  .email-input {
+    width: 90% !important;
+  }
+
   #email {
-    margin-bottom: 10px;
+    width: 100% !important;
+  }
+
+  .confirm-join-button {
+    width: 90% !important;
+  }
+
+  #submit {
+    width: 100% !important;
+  }
+
+  #email {
+    margin: 0 0 10px 0;
     width: 335px;
   }
   .maillist-banner div i {
     right: 14px;
-  }
-  #submit {
-    width: 280px !important;
   }
 
   .confirm-button {

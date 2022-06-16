@@ -24,7 +24,7 @@
                       justify-content-end email-input">
                         <input id="email" class="m-font emailInput" type="email" name="email" placeholder="  EMAIL ADDRESS">
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-3 button-container">
+                    <div class="col-sm-12 col-md-12 col-lg-3 button-container confirm-join-button">
                         <button id="submit" class="m-font fontThin" type="submit">JOIN NOW</button>
                     </div>
                 </form>
