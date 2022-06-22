@@ -67,7 +67,7 @@ body {
 
 .myContainer form {
   padding: 0;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
 }
 
 .button-container {
@@ -99,6 +99,16 @@ body {
 
 #cookie-disclaimer {
   max-width: 550px;
+  margin: 0;
+  padding-top: 13px;
+}
+
+.cookie_x {
+  top: 14px;
+}
+
+.join-x-button {
+  top: 10px !important;
 }
 
 .myContainer2 {
@@ -106,7 +116,7 @@ body {
 }
 
 .myContainer2 > div {
-  padding-bottom: 12px;
+  /* padding-top: 10px; */
 }
 
 #maillist-banner {
@@ -305,15 +315,20 @@ body {
       max-width: 52px;
   }
 
+  #cookie_container {
+    padding-bottom: 25px;
+  }
+
   #cookie-disclaimer {
     font-size: 1em;
     margin: 0;
+    padding-top: 10px;
     /* padding-right: 20px; */
   }
 
   .cookies-description {
     padding: 10px 0 0 0 !important;
-    margin-bottom: 15px;
+    padding-bottom: 0px;
   }
 
   .myContainer form {
@@ -354,7 +369,6 @@ body {
     padding: 15px;
     min-height: 154px;
     margin-left: 0 !important;
-    height: 188px;
   }
 
   #join-mailing-list {
@@ -656,6 +670,10 @@ body {
   display: block;
 }
 
+.font-11 {
+  font-size: 11px !important;
+}
+
 .font-12 {
   font-size: 12px !important;
   margin-bottom: 0 !important;
@@ -664,4 +682,12 @@ body {
 .font-14 {
   font-size: 14px !important;
   padding: 8px 20px !important;
+}
+
+#email-error {
+  font-size: 11px !important;
+}
+
+.button-height {
+  height: 22px !important;
 }

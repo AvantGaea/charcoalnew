@@ -18,31 +18,31 @@
                 <form name="ajax-contact-form" id="ajax-contact-form" action="{{route('store.email')}}" method="post" >
                     @csrf
                     <div id="join-mailing-list" class="col-sm-12 col-md-12 col-lg-5  justify-content-center mt-1">
-                        <p class="m-font fontThin">JOIN OUR MAILING LIST TO GET THE LATEST UPDATES.</p>
+                        <p class="m-font fontThin font-11">JOIN OUR MAILING LIST TO GET THE LATEST UPDATES.</p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4  d-flex
                       justify-content-end email-input">
-                        <input id="email" class="m-font emailInput" type="email" name="email" placeholder="  EMAIL ADDRESS">
+                        <input id="email" class="m-font emailInput font-11 button-height" type="email" name="email" placeholder="  EMAIL ADDRESS">
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 button-container confirm-join-button">
-                        <button id="submit" class="m-font fontThin" type="submit">JOIN NOW</button>
+                        <button id="submit" class="m-font fontThin font-11 button-height" type="submit">JOIN NOW</button>
                     </div>
                 </form>
             </div>
-            <i class="m-close bi bi-x"></i>
+            <i class="m-close bi bi-x join-x-button"></i>
         </div>
     </div>
 <div id="cookie_container" class="cookie_container c-index active">
     <div class="container-fluid d-flex">
         <div class="row myContainer2">
             <div class="c-ptag col-sm-10 col-lg-7 col-xs-12 cookies-description">
-                <p id="cookie-disclaimer" class="fontThin">BY CLICKING "ACCEPT ALL COOKIES", YOU AGREE TO THE STORING OF COOKIES TO ENHANCE SITE NAVIGATION, ANALYZE SITE USAGE, AND ASSIST IN OUR MARKETING EFFORTS.</p>
+                <p id="cookie-disclaimer" class="fontThin font-11">BY CLICKING "ACCEPT ALL COOKIES", YOU AGREE TO THE STORING OF COOKIES TO ENHANCE SITE NAVIGATION, ANALYZE SITE USAGE, AND ASSIST IN OUR MARKETING EFFORTS.</p>
             </div>
             <div class="c-link col-sm-2 col-lg-2 cookie-settings">
-                <a class="btnc fontThin mx-auto" id="modal_btn">COOKIES SETTINGS</a>
+                <a class="btnc fontThin mx-auto font-11" id="modal_btn">COOKIES SETTINGS</a>
             </div>
             <div class="c-btn col-sm-12 col-lg-3 fontThin">
-                <button id="cookie_btn">ACCEPT ALL COOKIES</button>
+                <button id="cookie_btn" class="font-11 button-height">ACCEPT ALL COOKIES</button>
             </div>
         </div>
         <i class="cookie_x bi bi-x"></i>
