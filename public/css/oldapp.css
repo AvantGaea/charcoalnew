@@ -95,6 +95,7 @@ body {
 
 #cookie_btn {
   width: 280px;
+  min-width: 280px;
 }
 
 #cookie-disclaimer {
@@ -125,6 +126,7 @@ body {
 
 #submit {
   width: 280px !important;
+  min-width: 280px;
 }
 
 .modal-content {
@@ -159,6 +161,10 @@ body {
   margin-bottom: 0 !important;
 }
 
+#email {
+  min-width: 280px;
+}
+
 
 @media  (max-width: 1200px) {
   .navbar {
@@ -166,7 +172,7 @@ body {
   }
 
   .myContainer2 {
-    padding: 0 90px !important;
+    padding: 0 40px !important;
   }
 
   .maillist-container {
@@ -291,10 +297,20 @@ body {
     width: 330px !important;
   }
 
-  /* #submit {
-    width: 330px !important;
-  } */
+  #cookie_btn {
+    min-width: unset;
+  }
+
+  #submit {
+    min-width: unset;
+  }
+
+  #email {
+    min-width: unset;
+  }
+
 }
+
 /* phone */
 @media only screen and (max-width: 451px) {
   .modal-content {
