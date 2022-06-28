@@ -87,8 +87,6 @@ body {
   padding: 0;
 }
 
-
-
 .emailInput {
   width: 280px !important;
 }
@@ -101,15 +99,23 @@ body {
 #cookie-disclaimer {
   max-width: 550px;
   margin: 0;
-  padding-top: 13px;
+  padding-top: 0px;
+}
+
+.cookie-settings {
+  padding-bottom: 13px;
+}
+
+.cookie-btn {
+  padding-bottom: 13px;
 }
 
 .cookie_x {
-  top: 14px;
+  top: 6px;
 }
 
 .join-x-button {
-  top: 10px !important;
+  top: 6px !important;
 }
 
 .myContainer2 {
@@ -283,6 +289,7 @@ body {
 
   .cookie-settings {
     margin: 4px 0;
+    padding-bottom: 0;
   }
 
   .maillist-container {
@@ -332,7 +339,7 @@ body {
   }
 
   #cookie_container {
-    padding-bottom: 25px;
+    padding-bottom: 10px;
   }
 
   #cookie-disclaimer {

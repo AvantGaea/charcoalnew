@@ -41,7 +41,7 @@
             <div class="c-link col-sm-2 col-lg-2 cookie-settings">
                 <a class="btnc fontThin mx-auto font-11" id="modal_btn">COOKIES SETTINGS</a>
             </div>
-            <div class="c-btn col-sm-12 col-lg-3 fontThin">
+            <div class="c-btn col-sm-12 col-lg-3 fontThin cookie-btn">
                 <button id="cookie_btn" class="font-11 button-height">ACCEPT ALL COOKIES</button>
             </div>
         </div>
