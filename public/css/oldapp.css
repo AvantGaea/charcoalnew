@@ -78,6 +78,10 @@ body {
   appearance: none !important;
 }
 
+.cookies-description {
+  padding-left: 0;
+}
+
 #join-mailing-list {
   align-items: center;
   display: flex;
@@ -611,7 +615,6 @@ body {
 
 .myContainer2 .c-ptag {
   justify-content: flex-start;
-  padding-left: 15px;
 }
 
 @media only screen and (max-width: 992px) {
